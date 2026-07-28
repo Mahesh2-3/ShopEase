@@ -24,11 +24,9 @@ const Navbar = () => {
     <header className="sticky top-0 z-40 bg-cream/95 backdrop-blur border-b border-brand-100">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center gap-2" onClick={() => setMenuOpen(false)}>
-            <span className="w-8 h-8 rounded-full bg-brand-500 flex items-center justify-center text-cream font-display text-lg">
-              S
-            </span>
-            <span className="font-display text-xl font-semibold text-brand-700">ShopEase</span>
+          <Link to="/" className="flex items-center gap-2.5" onClick={() => setMenuOpen(false)}>
+            <img src="/logo.svg" alt="ShopEase Logo" className="w-9 h-9 object-contain drop-shadow-sm" />
+            <span className="font-display text-xl font-semibold text-brand-700 tracking-tight">ShopEase</span>
           </Link>
 
           <div className="hidden md:flex items-center gap-1">

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B4F4A" />
+      <stop offset="100%" stop-color="#149386" />
+    </linearGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7C948" />
+      <stop offset="100%" stop-color="#F2A93B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#052E2B" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="128" fill="url(#bg-grad)" />
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="8" />
+
+  <path d="M192 180 C192 120, 320 120, 320 180" fill="none" stroke="url(#accent-grad)" stroke-width="28" stroke-linecap="round" filter="url(#shadow)" />
+  <path d="M136 180 L376 180 C392 180, 404 194, 402 210 L380 400 C378 418, 363 432, 345 432 L167 432 C149 432, 134 418, 132 400 L110 210 C108 194, 120 180, 136 180 Z" fill="#FFFFFF" filter="url(#shadow)" />
+  <path d="M285 245 C240 240, 220 260, 225 285 C230 310, 285 305, 285 335 C285 365, 245 365, 220 355" fill="none" stroke="url(#bg-grad)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M325 250 L333 268 L351 276 L333 284 L325 302 L317 284 L299 276 L317 268 Z" fill="url(#accent-grad)" />
+</svg>
